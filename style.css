@@ -82,9 +82,9 @@ nav {
   background-color: gray;
 }
 
-@media (max-height: 600px) {
+@media (max-width: 600px) {
   #page1 {
-    width: 70vh;
+    width: 70vw;
     padding-top: 25vh;
     padding: 0 3vw;
   }
@@ -95,14 +95,12 @@ nav {
     letter-spacing: -3px;
   }
   #video-container {
-    height: 25vh;
-    width: 100%;
-    margin-top: 1vw;
+    width: 100vw;
+    margin-top: 1vh;
     position: relative;
   }
   video{
-    height: 25vh;
-    width: 100%;
+    width: 100vw;
     margin-top: 1vw;
     position: relative;
   }
